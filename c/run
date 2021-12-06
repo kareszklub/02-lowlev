@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[[ -d bin ]] || mkdir bin
+gcc -w main.c -o bin/main
+
+./bin/main
